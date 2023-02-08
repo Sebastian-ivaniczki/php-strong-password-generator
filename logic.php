@@ -12,7 +12,7 @@
     };
 
     // CONTROLLO DA EFFETTUARE SULLA VALIDITà DELLA PASSWORD
-    if(isset($_GET["generatedPassword"]) && $_GET["generatedPassword"] < 5 || $_GET["generatedPassword"] > 32 ){
+    if(isset($_GET["generatedPassword"]) && ( $_GET["generatedPassword"] < 5 || $_GET["generatedPassword"] > 32 )){
         $error="Non hai inserito un valore valido, necessari tra gli 5 e i 32 caratteri.";
     } 
     elseif(isset($_GET["generatedPassword"]) && $_GET["generatedPassword"] !== ""){

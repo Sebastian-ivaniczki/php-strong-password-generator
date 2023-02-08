@@ -31,7 +31,7 @@ include __DIR__. "/logic.php"
                 La password generata è: <?= $password ?>
             </div>
         <?php } ?>
-        <form class="form-control" action="./index.php" method="GET">
+        <form class="form-control" action="#" method="GET">
             <div>
                 <label>Lunghezza password:</label>
                 <input type="number" name="generatedPassword" placeholder="Lunghezza password">
