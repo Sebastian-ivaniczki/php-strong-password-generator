@@ -20,17 +20,7 @@ include __DIR__. "/logic.php"
 
         <h1 class="text-center mb-5">Strong Pasword Generatoer</h1>
         
-        <div>
-        <?php if(isset($error)){ ?>
-            <div class="alert alert-danger">
-                <?php echo $error?>
-            </div>
-        <?php } ?>
-        <?php if(isset($password)){ ?>
-            <div class="alert alert-success">
-                La password generata è: <?= $password ?>
-            </div>
-        <?php } ?>
+        
         <form class="form-control" action="redirect.php" method="GET">
             <div>
                 <label>Lunghezza password:</label>
