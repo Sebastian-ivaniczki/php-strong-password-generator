@@ -1,0 +1,12 @@
+body{
+    background-color: #001632;
+}
+h1{
+    color: #fff;
+}
+
+.form-control{
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
